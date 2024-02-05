@@ -1,0 +1,137 @@
+{
+  // Workbench
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.enablePreview": false,
+  "workbench.sideBar.location": "left",
+  "window.menuBarVisibility": "toggle",
+  "workbench.list.smoothScrolling": true,
+  // Editor and breadcrumbs
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [
+    79,
+    120
+  ],
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 20,
+  "editor.detectIndentation": true,
+  "editor.snippetSuggestions": "top",
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.formatOnPaste": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "editor.glyphMargin": false,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  // Terminal
+  "terminal.integrated.copyOnSelection": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.enableFileLinks": false,
+  "terminal.integrated.env.linux": {
+    // "PORT": "4000"
+  },
+  // Debug
+  "debug.console.fontSize": 18,
+  // Code runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "python": "python -u",
+    "typescript": "npx ts-node --files --transpile-only"
+  },
+  // Material icon theme extension
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.color": "#6273a6",
+  // CSpell checker extension
+  "cSpell.enabled": true,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enableFiletypes": [
+    "shellscript"
+  ],
+  // Colorize (in big files you may want to disable this)
+  "colorize.hide_current_line_decorations": false,
+  "colorize.include": [
+    ".tsx",
+    ".jsx",
+    ".ts",
+    ".js"
+  ],
+  "colorize.languages": [
+    "typescriptreact",
+    "javascriptreact",
+    "javascript",
+    "typescript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "pcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "colorize.colorized_colors": [
+    // "BROWSERS_COLORS", // 
+    "HEXA",
+    "RGB",
+    "HSL"
+  ],
+  "colorize.enable_search_variables": false,
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "python.testing.unittestEnabled": true,
+  // Django
+  "files.associations": {
+    "*.html": "html",
+    "**/templates/*.html": "Django-html",
+    "**/templates/*": "Django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  // Javascript & TypeScript
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "[javascript]": {
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  // Git
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+}
